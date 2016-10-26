@@ -21,6 +21,7 @@
     
     NSLog(@"image=%@", image);
     
+    //等比例 压缩图片
     UIImageView * imgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 70, 120, 120)];
     imgView.backgroundColor = [UIColor redColor];
     imgView.image = image;
